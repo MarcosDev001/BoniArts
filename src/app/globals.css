@@ -19,3 +19,34 @@ body{
   overflow-x: hidden;
 }
 
+.loading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Isso garante que a tela inteira seja coberta verticalmente */
+}
+
+.loading-logo {
+  text-align: center;
+}
+
+.loading-logo-img {
+  transform-origin: center;
+  animation: scaleAnimation 1s infinite alternate;
+}
+
+.neon-effect {
+  filter: brightness(1.5) saturate(200%) contrast(80%);
+  animation: neon-animation 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon-animation {
+  from {
+    filter: brightness(1.5) saturate(200%) contrast(80%);
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.8);
+  }
+  to {
+    filter: brightness(1) saturate(100%) contrast(100%);
+    box-shadow: none;
+  }
+}

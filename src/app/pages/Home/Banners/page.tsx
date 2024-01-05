@@ -18,14 +18,14 @@ const Banners = () => {
     >
       <SwiperSlide>
         <img
-          src="https://www.shoppingcatolico.com.br/media/wysiwyg/slider/1180x400-FULL_BANNER_NATAL_2023_DIA_10.jpg"
+          src="https://i.ibb.co/6XhpQJc/em-breve.png"
           alt=""
           style={{ width: "100%" }}
         />
       </SwiperSlide>
       <SwiperSlide>
         <img
-          src="https://www.shoppingcatolico.com.br/media/wysiwyg/slider/1180x400_SHC_Dia_GOTAS.jpg"
+          src="https://i.ibb.co/6XhpQJc/em-breve.png"
           alt=""
           style={{ width: "100%" }}
         />
